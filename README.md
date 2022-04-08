@@ -1,4 +1,4 @@
-# Challenge-Eldar---Backend-Java
+# Challenge Eldar-Backend-Java
 Proyecto de Backend JAVA para Eldar
 
 Algunas consideraciones:
