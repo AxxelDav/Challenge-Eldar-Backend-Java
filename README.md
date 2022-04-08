@@ -11,7 +11,7 @@ En el manejo de error se valida que la fecha ingresada tenga el formato adecuado
 La API REST se ejecuta desde "ProyectoApplication", la misma posee Servicio en cuya implementacion se realiza la logica para calcular la tasa y luego setearla. 
 Se corroboro la respuesta en la herramienta POSTMAN, llamando al endpoint http://localhost:8080/calculoTasa con un POST.
 
-Por falta de conocimiento no llegue a realizar el Hosteo de la solución en algún cloud computing.
+Por falta de conocimiento no llegue a realizar el Hosteo de la solución en algún cloud computing como lo requeria el ejercicio.
 
 
 
