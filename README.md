@@ -3,7 +3,7 @@ Proyecto de Backend JAVA para Eldar
 
 Algunas consideraciones:
 
-En paquete "modelo" posee la clase abstracta "Tipo Tarjeta" quien posee los metodos y atributos que heredan las clases Visa, Nara y Amex. A su vez se creo una clase FabricaTarjeta el cual posee el metodo de obtencion de tarjeta, en caso de que sea VISA o NARA o AMEX creara un nuevo objeto con sus caracteristicas y metodos correspondientes. La ejecucion del programa se encuentra en la clase "ejecutable". 
+EL paquete "modelo" posee la clase abstracta "Tipo Tarjeta" quien posee los metodos y atributos que heredan las clases Visa, Nara y Amex. A su vez se creo una clase FabricaTarjeta el cual posee el metodo de obtencion de tarjeta, en caso de que sea VISA o NARA o AMEX creara un nuevo objeto con sus caracteristicas y metodos correspondientes. La ejecucion del programa se encuentra en la clase "ejecutable". 
 En el manejo de error se valida que la fecha ingresada tenga el formato adecuado, de lo contrario se captura la excepcion y se imprime un aviso. 
 La API REST se ejecuta desde "ProyectoApplication", la misma posee Servicio en cuya implementacion se realiza la logica para calcular la tasa y luego setearla. 
 Se corroboro la respuesta en la herramienta POSTMAN, llamando al endpoint http://localhost:8080/calculoTasa con un POST.
